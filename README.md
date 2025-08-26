@@ -1,10 +1,10 @@
-🖼️ ##Image Captioning with MS COCO Dataset
+🖼️ Image Captioning with MS COCO Dataset
 
 This project implements an Image Captioning model using the MS COCO 2017 dataset. The model learns to generate natural language captions for images by combining a CNN encoder (for image features) and an RNN decoder with embeddings (for text generation).
 
 Additionally, the training script supports both training and validation splits, tracks losses, and saves the best-performing model.
 
-🚀 ##Features
+🚀 Features
 - MS COCO 2017 support (captions_train2017.json, captions_val2017.json)
 - CNN (Encoder) + RNN (Decoder) architecture
 - Vocabulary built from COCO captions with <SOS>, <EOS>, <PAD> tokens
@@ -12,7 +12,7 @@ Additionally, the training script supports both training and validation splits, 
 - Best model saving (best_encoder.pth, best_decoder.pth)
 - Training vs Validation loss plot (loss_plot.png)
 
-📂 ##Project Structure
+📂 Project Structure
 project/
 - train.py                # Training script
   - model/
